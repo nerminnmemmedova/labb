@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aksesuar Mağazası</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .accessory-card {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .accessory-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .accessory-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .category {
+            color: #888;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-top: 15px;
+            display: block;
+        }
+
+        .title {
+            font-size: 22px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .price {
+            font-size: 20px;
+            color: #e67e22;
+            font-weight: bold;
+        }
+
+        .buy-btn {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            margin-top: 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        .buy-btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="accessory-card">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=300&q=80" alt="Qol Saatı" class="accessory-image">
+        
+        <span class="category">Saat Kolleksiyası</span>
+        <h2 class="title">Minimalist Qol Saatı</h2>
+        <p class="price">45.00 AZN</p>
+        
+        <button class="buy-btn">Səbətə at</button>
+    </div>
+
+</body>
+</html>
